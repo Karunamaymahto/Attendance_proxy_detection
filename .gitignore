@@ -1,0 +1,45 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# === Virtual Environment ===
+venv/
+env/
+.venv/
+ENV/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# === VS Code ===
+.vscode/
+.history/
+
+# === Logs ===
+*.log
+logs/
+
+# === Environment & config ===
+*.env
+*.ini
+
+# === Data files (optional - keep only if large) ===
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# === System ===
+.DS_Store
+Thumbs.db
+
+# === Build ===
+build/
+dist/
+*.egg-info/
