@@ -6,6 +6,8 @@ __pycache__/
 *.pdb
 *.pkl
 *.pickle
+*.tsv
+*.json
 
 # === Virtual Environment ===
 venv/
@@ -30,10 +32,7 @@ logs/
 *.ini
 
 # === Data files (optional - keep only if large) ===
-*.csv
-*.tsv
-*.xlsx
-*.json
+
 
 # === System ===
 .DS_Store
@@ -43,3 +42,4 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+!/data/
